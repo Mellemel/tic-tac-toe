@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import MainMenu from 'react'
-import Stage from 'stage'
+import MainMenu from './components/mainmenu/'
+import Stage from './components/stage'
 
 class App extends Component {
   constructor() {

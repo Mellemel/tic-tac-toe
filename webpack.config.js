@@ -50,6 +50,10 @@ const config = {
         collapseWhitspace: true
       },
       inject: true;
+    }),
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery'
     })
   ],
   devServer: {
@@ -71,7 +75,7 @@ const config = {
       chunkModules: false
     },
   },
-  postcss: ()=> [autoprefixer]
+  postcss: () => [autoprefixer]
 }
 
 module.exports = config
