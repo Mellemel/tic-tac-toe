@@ -1,7 +1,8 @@
+import './favicon.ico'
+import './sass/style.scss'
+import './js/bin/materialize.min'
 import React from 'react'
 import {render} from 'react-dom'
-import App from './app'
-import 'bootstrap/dist/css/boostrap.css'
-import 'bootstrap/dist/js/bootstrap'
+import Calculator from './components/calculator'
 
-render(<App />, document.getElementById('app'))
+render(<Calculator />, document.getElementById('app'))
